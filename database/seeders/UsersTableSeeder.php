@@ -27,7 +27,7 @@ class UsersTableSeeder extends Seeder
             ],
             // Agent
             [
-                'name' => 'Admin',
+                'name' => 'Agent',
                 'username' => 'agent',
                 'email' => 'agent@gmail.com',
                 'password' => Hash::make(111),
